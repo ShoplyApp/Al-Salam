@@ -60,7 +60,7 @@ export function Header() {
         </Link>
 
         {/* Desktop navigation */}
-        <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
+        <nav className="hidden items-center gap-6 text-sm font-medium md:flex flex-1 justify-center">
           {navLinks.map((link) => (
             <NavLink key={link.href} href={link.href}>
               {link.label}
